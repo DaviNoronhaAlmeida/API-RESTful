@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "nome": "davi",
+      "email": "da@.com",
+      "delete": false,
+      "id": 1
+    },
+    {
+      "nome": "goku",
+      "email": "go@gmail.com",
+      "delete": false,
+      "id": 2
+    },
+    {
+      "nome": "gohan",
+      "email": "gogo@.com",
+      "delete": false,
+      "id": 3
+    },
+    {
+      "nome": "mestre kame",
+      "email": "mk@.com",
+      "delete": false,
+      "id": 4
+    },
+    {
+      "nome": "vegeta",
+      "email": "vgt@.com",
+      "delete": false,
+      "id": 5
+    },
+    {
+      "nome": "goku black",
+      "email": "gb@a.com",
+      "delete": false,
+      "id": 6
+    }
+  ]
+}

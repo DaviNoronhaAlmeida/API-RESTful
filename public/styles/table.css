@@ -1,0 +1,37 @@
+#tableText {
+    margin-top: 8vh;
+}
+
+table {
+    max-width: 1286px;
+    width: 100%;
+    margin: 2vh 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+thead {
+    background-color: #14BC39;
+    color: #ffff;
+}
+
+tbody {
+    color:#535151;
+}
+
+tbody > tr {
+    background: #BDE3C6;
+}
+
+tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+td {
+    height: 40px;
+}
+
+svg:hover {
+    cursor: pointer;
+}

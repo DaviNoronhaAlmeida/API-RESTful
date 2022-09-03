@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuários</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/table.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+</head>
+<body>
+    <header>
+        <div id="block"></div>
+        <p>FRONT API</p>
+    </header>
+    <main>
+        <section>
+            <div class="Text">
+                <h1>FORMULÁRIO DE CADASTRO DE USUÁRIOS</h1>
+                <p>Para inserir na lista, preencha os dados abaixo.</p>
+            </div>
+            <div class="line"></div>
+            <form>
+                <input type="text" name="nome" id="name" placeholder="Nome Completo" />
+                <input type="email" name="email" id="email" placeholder="E-mail" />
+                <button type="button" id="register">Cadastrar</button>
+            </form>
+            
+        </section>
+        <section>
+            <div class="Text" id="tableText">
+                <h1>LISTA DE USUÁRIOS CADASTRADOS</h1>
+                <p>Abaixo, você pode ver os usuários registrados, podendo editá-los ou remové-los.</p>
+            </div>
+            <div class="line"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>#ID</td>
+                        <td>NOME</td>
+                        <td>E-MAIL</td>
+                        <td>EDITAR</td>
+                        <td>EXCLUIR</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                
+            </table>
+        </section>
+
+        <div class="modal">
+            <div id="modalRegister">
+                <div id="text">Cadastrado com sucesso!</div>
+                <button id="close">Fechar</button>
+            </div>
+            <div id="modalEdit">
+                <h1 id="editTitle">Editar</h1>
+                <div class="line"></div>
+                <input type="text" id="nameEdit" name="nameEdit" placeholder="Nome Completo" />
+                <input type="email" id="emailEdit" name="emailEdit" placeholder="E-mail" />
+                <button id="save">Salvar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="./scripts/script.js"></script>
+</body>
+</html>

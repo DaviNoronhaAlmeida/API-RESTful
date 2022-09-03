@@ -1,0 +1,88 @@
+.modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#modalRegister {
+    display: none;
+    background: #e7f0e7;
+    width: 700px;
+    height: 300px;
+    margin: 25vh 25vw;
+}
+
+#text {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 37vw;
+    top: 36vh;
+}
+
+#close {
+    width: 180px;
+    height: 30px;
+    background-color: #14BC39;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 43vw;
+    top: 55vh;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+/* modal de editar */
+
+#modalEdit {
+    display: none;
+    background: #ffff;
+    width: 750px;
+    height: 350px;
+    margin: 23vh 23vw;
+    text-align: center;
+}
+
+#editTitle {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 35px;
+}
+
+#nameEdit {
+    margin: 5vh 5vw;
+}
+
+#emailEdit {
+    margin: 0vh 5vw;
+}
+
+#save {
+    width: 200px;
+    height: 40px;
+    background-color: #14BC39;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 43vw;
+    top: 65vh;
+}
+
+#save:hover {
+    cursor: pointer;
+}
